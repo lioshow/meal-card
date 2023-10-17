@@ -1,0 +1,53 @@
+.container {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.header {
+  background-color: #0483d4;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  font-size: 35px;
+  color: #fff;
+}
+
+.title {
+  color: #fff;
+  font-size: 22px;
+  display: inline;
+  position: relative;
+  left: 10px;
+}
+
+.userinfoContainer {
+  position: absolute;
+  right: 100px;
+  display: inline;
+}
+
+.userinfo1 {
+  color: #fff;
+  font-size: 15px;
+}
+
+.userinfo2 {
+  color: #fff;
+  /* 鼠标放上去切换指针 */
+  cursor: pointer;
+  font-size: 15px;
+  line-height: 36px;
+}
+
+.aside {
+  background-color: #D3DCE6;
+  color: #333;
+  text-align: center;
+  line-height: 200px;
+}
