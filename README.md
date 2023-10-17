@@ -1,2 +1,2 @@
 # meal card
-a project for meal card managing system
+a project for meal card management system
