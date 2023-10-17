@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lx.mapper.StudentMapper">
+
+<!--    <select id="selectStudentWithCardNoPage" resultType="com.lx.entity.Student"-->
+<!--            parameterType="com.baomidou.mybatisplus.extension.plugins.pagination.Page">-->
+<!--        SELECT s.*, c.cardNo-->
+<!--        FROM student s-->
+<!--        LEFT JOIN card c ON s.stuNo = c.stuNo-->
+<!--        WHERE s.stuNo like '%value%'-->
+<!--        LIMIT #{page.offset}, #{page.size}-->
+<!--    </select>-->
+</mapper>

@@ -1,0 +1,15 @@
+# 应用服务 WEB 访问端口
+server:
+  port: 8080
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3305/meal_card?serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456
+
+#开启mybatis-plus运行日志
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
